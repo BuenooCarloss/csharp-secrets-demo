@@ -1,0 +1,17 @@
+[[rules]]
+id = "senha"
+description = "Detecta palavras relacionadas a senha em português"
+regex = "(?i)(senha)"
+path = ".*"
+tags = ["password"]
+
+[[rules]]
+id = "password"
+description = "Detecta palavras relacionadas a senha em inglês"
+regex = "(?i)(password)"
+path = ".*"
+tags = ["password"]
+
+[allowlist]
+paths = []
+
