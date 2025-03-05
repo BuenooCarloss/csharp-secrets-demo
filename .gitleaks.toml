@@ -12,6 +12,29 @@ regex = "(?i)(password)"
 path = ".*"
 tags = ["password"]
 
+[[rules]]
+    description = "API Key (exemplo genérico)"
+    regex = '''(?:api|key|token)[\s=:]+["']?[A-Za-z0-9]{32,}["']?'''
+    tags = ["api_key", "token"]
+    severity = "high"
+
+[[rules]]
+    description = "GitHub Personal Access Token"
+    regex = '''gh[[:alnum:]]{36}'''
+    tags = ["github_token"]
+    severity = "high"
+
+[[rules]]
+    description = "AWS Access Key ID"
+    regex = '''AKIA[0-9A-Z]{16}'''
+    tags = ["aws_key"]
+    severity = "high"
+
+[[rules]]
+    description = "AWS Secret Access Key"
+    regex = '''(?<=AWS_SECRET_ACCESS_KEY\s*=\s*|aws_secret_access_key\s*=\s*)[A-Za-z0-9/+=]{40}'''
+    tags = ["aws_secret"]
+    severity = "high"
+
 [allowlist]
 paths = []
-

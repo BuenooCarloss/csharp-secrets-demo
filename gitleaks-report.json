@@ -1,0 +1,94 @@
+[
+ {
+  "RuleID": "password",
+  "Description": "Detecta palavras relacionadas a senha em inglês",
+  "StartLine": 5,
+  "EndLine": 5,
+  "StartColumn": 1,
+  "EndColumn": 8,
+  "Match": "password",
+  "Secret": "password",
+  "File": "Program.cs",
+  "SymlinkFile": "",
+  "Commit": "9e10b74b9b6bb79e66dae95dce6a85b5e41d5a9b",
+  "Link": "https://github.com/BuenooCarloss/csharp-secrets-demo/blob/9e10b74b9b6bb79e66dae95dce6a85b5e41d5a9b/Program.cs#L5",
+  "Entropy": 2.75,
+  "Author": "Cadu",
+  "Email": "carlos.e.bueno@hotmail.com",
+  "Date": "2025-03-05T13:54:49Z",
+  "Message": "a",
+  "Tags": [
+   "password"
+  ],
+  "Fingerprint": "9e10b74b9b6bb79e66dae95dce6a85b5e41d5a9b:Program.cs:password:5"
+ },
+ {
+  "RuleID": "password",
+  "Description": "Detecta palavras relacionadas a senha em inglês",
+  "StartLine": 5,
+  "EndLine": 5,
+  "StartColumn": 1,
+  "EndColumn": 8,
+  "Match": "password",
+  "Secret": "password",
+  "File": "Program.cs",
+  "SymlinkFile": "",
+  "Commit": "b4c160cba774ee9bdc42c43076962961f31bdc99",
+  "Link": "https://github.com/BuenooCarloss/csharp-secrets-demo/blob/b4c160cba774ee9bdc42c43076962961f31bdc99/Program.cs#L5",
+  "Entropy": 2.75,
+  "Author": "Cadu",
+  "Email": "carlos.e.bueno@hotmail.com",
+  "Date": "2025-03-05T13:44:32Z",
+  "Message": "teste",
+  "Tags": [
+   "password"
+  ],
+  "Fingerprint": "b4c160cba774ee9bdc42c43076962961f31bdc99:Program.cs:password:5"
+ },
+ {
+  "RuleID": "password",
+  "Description": "Detecta palavras relacionadas a senha em inglês",
+  "StartLine": 5,
+  "EndLine": 5,
+  "StartColumn": 1,
+  "EndColumn": 8,
+  "Match": "password",
+  "Secret": "password",
+  "File": "Program.cs",
+  "SymlinkFile": "",
+  "Commit": "5be3226e985478a2d632e517e8faeb9c214489e2",
+  "Link": "https://github.com/BuenooCarloss/csharp-secrets-demo/blob/5be3226e985478a2d632e517e8faeb9c214489e2/Program.cs#L5",
+  "Entropy": 2.75,
+  "Author": "Cadu",
+  "Email": "carlos.e.bueno@hotmail.com",
+  "Date": "2025-03-05T13:52:38Z",
+  "Message": "teste2",
+  "Tags": [
+   "password"
+  ],
+  "Fingerprint": "5be3226e985478a2d632e517e8faeb9c214489e2:Program.cs:password:5"
+ },
+ {
+  "RuleID": "password",
+  "Description": "Detecta palavras relacionadas a senha em inglês",
+  "StartLine": 5,
+  "EndLine": 5,
+  "StartColumn": 1,
+  "EndColumn": 8,
+  "Match": "password",
+  "Secret": "password",
+  "File": "Program.cs",
+  "SymlinkFile": "",
+  "Commit": "3a055aa7b0dc6467967a911597a9ec1441e6190c",
+  "Link": "https://github.com/BuenooCarloss/csharp-secrets-demo/blob/3a055aa7b0dc6467967a911597a9ec1441e6190c/Program.cs#L5",
+  "Entropy": 2.75,
+  "Author": "Cadu",
+  "Email": "carlos.e.bueno@hotmail.com",
+  "Date": "2025-03-05T13:57:44Z",
+  "Message": "aaaa",
+  "Tags": [
+   "password"
+  ],
+  "Fingerprint": "3a055aa7b0dc6467967a911597a9ec1441e6190c:Program.cs:password:5"
+ }
+]
